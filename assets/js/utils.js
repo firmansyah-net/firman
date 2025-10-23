@@ -79,6 +79,6 @@ function mailTo() {
   let message = encodeURIComponent(document.getElementById('contact-message').value);
 
   if (name && email && subject && message) {
-    window.open("mailto:sonicjhon1@gmail.com?cc=&bcc=&subject=" + subject + "&body=" + message + "%0D%0A%0D%0AFrom%20" + name + "%0D%0A" + email, "_blank").focus();
+    window.open("mailto:firmansyah09262@gmail.com?cc=&bcc=&subject=" + subject + "&body=" + message + "%0D%0A%0D%0AFrom%20" + name + "%0D%0A" + email, "_blank").focus();
   }
 }
